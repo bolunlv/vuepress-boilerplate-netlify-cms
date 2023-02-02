@@ -1,0 +1,58 @@
+.eoi-header-search {
+  width: 100%;
+.form-title{
+  font-size: 14px;
+}
+  .eoi-header-search-content {
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    gap: 16px;
+
+    & > span {
+      display: flex;
+      align-items: center
+      
+    }
+
+    div {
+      flex: 1;
+    }
+  }
+
+  .list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+
+    .right {
+      cursor: pointer;
+    }
+
+    .left {
+      display: inline-flex;
+      align-items: center;
+      column-gap: 10px;
+
+      .active {
+        background-color: rgba(0, 103, 71, .3);
+      }
+
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 28px;
+        border-radius: 4px;
+        background-color: rgba(242, 242, 242, 0.64);
+        box-sizing: border-box;
+        padding: 0 10px;
+        font-family: '微软雅黑', sans-serif;
+        color: #666666;
+        cursor: pointer;
+      }
+    }
+  }
+}

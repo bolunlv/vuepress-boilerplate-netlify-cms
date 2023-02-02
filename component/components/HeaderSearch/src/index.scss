@@ -1,0 +1,15 @@
+.eoi-header-search{
+  display: inline-flex;
+  height: 100%;
+  align-items: center;
+  gap:10px;
+  .icon{
+    cursor: pointer;
+  }
+  &:deep(.el-input__inner){
+    width:unset;
+  }
+  &:deep(.el-input__suffix){
+    display: none;
+  }
+}

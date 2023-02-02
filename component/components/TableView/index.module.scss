@@ -1,0 +1,21 @@
+.box {
+  :global {
+    .el-table{
+      --el-table-row-hover-bg-color:white;
+    }
+    .el-table__placeholder {
+      display: none;
+    }
+    .el-pagination__sizes {
+      margin-left: 15px;
+
+      .el-input__inner {
+        width: 60px !important;
+      }
+    }
+
+    .el-input__wrapper {
+      width: unset !important;
+    }
+  }
+}

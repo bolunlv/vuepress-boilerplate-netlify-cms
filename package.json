@@ -1,33 +1,39 @@
 {
-  "name": "vuepress-boilerplate-netlify-cms",
-  "version": "0.0.0",
-  "description": "VuePress boilerplate integrated with Netlify CMS, powered by Demo Macro.",
-  "private": true,
+  "name": "eoipluscommon",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "index.js",
+
   "scripts": {
-    "dev": "vuepress dev",
-    "build": "vuepress build"
+    "docs:dev": "vitepress dev docs/src --port 8888",
+    "docs:build": "vitepress build docs/src",
+    "docs:serve": "vitepress serve docs/src"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DemoMacro/vuepress-boilerplate-netlify-cms.git"
+    "url": "git@code.eoitek.net:ndcr/fe/eoipluscommon.git"
   },
-  "keywords": [
-    "vuepress",
-    "boilerplate",
-    "netlify",
-    "netlify-cms"
-  ],
-  "author": {
-    "name": "Demo Macro",
-    "email": "abc@imst.xyz",
-    "url": "https://imst.xyz/"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@eoi-plus/all": "workspace:^0.0.1",
+    "@eoi-plus/components": "workspace:^0.0.1",
+    "@eoi-plus/constants": "workspace:*",
+    "@eoi-plus/hooks": "workspace:^0.0.1",
+    "@eoi-plus/utils": "workspace:*",
+    "@wangeditor/editor": "^5.1.23",
+    "@wangeditor/editor-for-vue": "^1.0.2",
+    "ahooks-vue": "^0.15.0",
+    "date-fns": "^2.29.3",
+    "dayjs": "^1.11.7",
+    "element-plus": "2.2.5",
+    "lodash": "^4.17.21",
+    "vue": "3.2.37",
+    "vue-router": "^4.1.6",
+    "wangeditor": "^4.7.15"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/DemoMacro/vuepress-boilerplate-netlify-cms/issues"
-  },
-  "homepage": "https://github.com/DemoMacro/vuepress-boilerplate-netlify-cms#readme",
   "devDependencies": {
-    "vuepress": "1.9.7"
+    "vitepress": "1.0.0-alpha.32"
   }
 }

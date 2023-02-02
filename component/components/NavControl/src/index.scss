@@ -1,0 +1,10 @@
+.NavControlActive{
+  transform: rotate(180deg);
+  cursor: pointer;
+  transition: all 1s;
+}
+.NavControl{
+  transform: rotate(0deg);
+  cursor: pointer;
+  transition: all 1s;
+}

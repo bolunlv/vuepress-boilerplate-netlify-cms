@@ -1,0 +1,49 @@
+
+.UserControl {
+  height: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 14px;
+  position: relative;
+
+  .el-menu-vertical-demo {
+    width: 100%;
+    max-height: 500px;
+    overflow: auto;
+  }
+
+  &:deep(.el-popper__arrow:before) {
+    display: none;
+
+  }
+
+  &:deep(.el-menu-item span) {
+    display: block;
+    width: 107px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  &:deep(.userSelect) {
+    padding: 0;
+  }
+
+  .title {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+
+    .avatar {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: var(--theme-header-text);
+
+    }
+  }
+
+}

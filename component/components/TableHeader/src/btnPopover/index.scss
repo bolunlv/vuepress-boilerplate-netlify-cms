@@ -1,0 +1,17 @@
+.constent{
+  display: inline-flex;
+  width:500px;
+  flex-wrap: wrap;
+  overflow: hidden;
+  justify-content: space-between;
+  gap: 16px;
+  .close{
+    position: absolute;
+    top: 8px;
+    right:8px;
+    cursor: pointer;
+    &:hover{
+      color: var(--theme-color);
+    }
+  }
+}

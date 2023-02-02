@@ -1,0 +1,44 @@
+
+.eoi-header-layout {
+  width: 100%;
+  height: 59px;
+  z-index: 3;
+  color: white;
+  transition: background 300ms;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    box-sizing: border-box;
+  }
+
+  .eoi-header-title {
+    font-size: 16px;
+  }
+
+  .nav-control-layout {
+
+    padding: 0 18px;
+  }
+
+  .eoi-header-right > div {
+
+    padding: 0 12px;
+  }
+
+  .eoi-header-left, .eoi-header-right {
+
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+
+  .userControl {
+    display: flex;
+  }
+}
+
+.flex-grow {
+  flex-grow: 1;
+}

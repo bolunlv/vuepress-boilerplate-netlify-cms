@@ -1,0 +1,30 @@
+.EoiTableHeader {
+  position: relative;
+  z-index: 10;
+
+  &:deep(.el-tree-node__label) {
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .operating {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    &:deep(.el-button+.el-button) {
+      margin: 0;
+    }
+
+    div {
+      display: flex;
+      gap: 16px;
+    }
+  }
+
+  &:deep(.el-popover.el-popper) {
+    padding: var(--theme-popover-padding);
+  }
+}

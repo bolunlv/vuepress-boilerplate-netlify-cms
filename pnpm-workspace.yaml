@@ -1,0 +1,3 @@
+packages:
+    - docs # 存放我们组件文档的
+    - "component/**"

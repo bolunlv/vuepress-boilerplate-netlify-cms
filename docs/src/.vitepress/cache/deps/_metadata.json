@@ -1,0 +1,50 @@
+{
+  "hash": "c21c8e97",
+  "browserHash": "9f89be3b",
+  "optimized": {
+    "vue": {
+      "src": "../../../../../node_modules/.pnpm/registry.npmmirror.com+vue@3.2.0/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "66bd0261",
+      "needsInterop": false
+    },
+    "lodash-es": {
+      "src": "../../../../../node_modules/.pnpm/registry.npmmirror.com+lodash-es@4.17.21/node_modules/lodash-es/lodash.js",
+      "file": "lodash-es.js",
+      "fileHash": "1db6d657",
+      "needsInterop": false
+    },
+    "element-plus": {
+      "src": "../../../../../node_modules/.pnpm/registry.npmmirror.com+element-plus@2.2.27_vue@3.2.0/node_modules/element-plus/es/index.mjs",
+      "file": "element-plus.js",
+      "fileHash": "7e56de15",
+      "needsInterop": false
+    },
+    "@vue/shared": {
+      "src": "../../../../../component/components/node_modules/@vue/shared/dist/shared.esm-bundler.js",
+      "file": "@vue_shared.js",
+      "fileHash": "9e53c15b",
+      "needsInterop": false
+    },
+    "async-validator": {
+      "src": "../../../../../node_modules/.pnpm/registry.npmmirror.com+async-validator@4.2.5/node_modules/async-validator/dist-web/index.js",
+      "file": "async-validator.js",
+      "fileHash": "a057643a",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-MH6SGZAZ": {
+      "file": "chunk-MH6SGZAZ.js"
+    },
+    "chunk-GTOI6QSF": {
+      "file": "chunk-GTOI6QSF.js"
+    },
+    "chunk-EPUKG3KC": {
+      "file": "chunk-EPUKG3KC.js"
+    },
+    "chunk-TWLJ45QX": {
+      "file": "chunk-TWLJ45QX.js"
+    }
+  }
+}
